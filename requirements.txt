@@ -1,0 +1,10 @@
+anthropic
+arxiv
+ipykernel
+ipython
+ipywidgets
+matplotlib
+pandas>=2
+python-dotenv
+requests
+ruff
