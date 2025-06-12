@@ -264,6 +264,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "anthropic" },
     { name = "arxiv" },
+    { name = "ipykernel" },
     { name = "matplotlib" },
     { name = "pandas" },
     { name = "python-dotenv" },
@@ -285,6 +286,7 @@ requires-dist = [
     { name = "anthropic" },
     { name = "arxiv" },
     { name = "docker", marker = "extra == 'dev'" },
+    { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "ipykernel", marker = "extra == 'dev'" },
     { name = "ipython", marker = "extra == 'dev'" },
     { name = "ipywidgets", marker = "extra == 'dev'" },
