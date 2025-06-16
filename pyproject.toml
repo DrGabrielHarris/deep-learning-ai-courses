@@ -14,7 +14,7 @@ dependencies = [
     "python-dotenv",
     "requests",
 ]
-
+ 
 [project.optional-dependencies]
 dev = [
     "docker",
